@@ -177,7 +177,7 @@ FROM PortfolioProject..NashvilleHousing
 DELETE
 FROM RowNumCTE
 WHERE row_num > 1
-ORDER BY PropertyAddress
+
 
 --------------------------------------------------------------
 -- Delete unused columns
