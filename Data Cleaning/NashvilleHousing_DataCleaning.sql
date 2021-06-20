@@ -174,7 +174,7 @@ SELECT *
 					) row_num
 FROM PortfolioProject..NashvilleHousing
 )
-SELECT *
+DELETE
 FROM RowNumCTE
 WHERE row_num > 1
 ORDER BY PropertyAddress
